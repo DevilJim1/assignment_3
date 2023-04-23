@@ -1,0 +1,61 @@
+ #Header {
+  text-align:center;
+  font-size:100px;
+  color:white;
+  display:block;
+ }
+ 
+ .poster {
+    float:right;
+    width: 390px;
+    height:auto;
+    margin-top:10px;
+    margin-right:250px;
+    margin-bottom:10px;
+  }
+  
+  .descript {
+    float:left;
+    color: black;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    width:450px;
+    height:260px;
+  }
+  
+  .trailer {
+    float:left;
+    height: 300px;
+    aspect-ratio: 16 / 9;
+  }
+
+  div{
+    background-color:bisque;
+    opacity:0.9;
+  }
+  
+  body {
+    background-color:blanchedalmond;
+    margin-left:40px;
+  }
+
+  #get {
+    display:inline;
+  }
+
+  #movies {
+    display:inline;
+  }
+
+  #movies > optgroup{
+    font-weight:bolder;
+    color:darkred;
+  }
+
+  #movies > optgroup > option{
+    color:black;
+  }
+
+  form > label{
+    font-weight:bold;
+  }
